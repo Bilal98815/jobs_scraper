@@ -1,6 +1,6 @@
 # Job Scraper
 
-This scraper monitors job postings from multiple companies (Tkxel, VentureDive, and CodeFulcrum) and sends new job notifications to a Discord channel. It keeps track of previously seen jobs to avoid duplicate notifications.
+This scraper monitors job postings from multiple companies (Tkxel, VentureDive, 10Pearls, Netsol, Xref, Cogent Labs and CodeFulcrum) and sends new job notifications to a Discord channel. It keeps track of previously seen jobs to avoid duplicate notifications.
 
 ## Features
 - Scrapes job listings from multiple companies
