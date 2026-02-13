@@ -1,6 +1,7 @@
 logs/
 jobs_data/
 .env
+.venv/
 
 *.pyc
 *.pyo

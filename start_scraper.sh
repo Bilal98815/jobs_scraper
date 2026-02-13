@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # Activate the virtual environment
-source /home/bilal/DjangoProjects/venv/bin/activate
+source /home/user/DjangoProjects/new_jobs/.venv/bin/activate
 
-cd /home/bilal/DjangoProjects/new_jobs
+cd /home/user/DjangoProjects/new_jobs
 
 scrapy crawl tkxel_jobs
 scrapy crawl codefulcrum_jobs
 scrapy crawl venturedive_jobs
+scrapy crawl xref_jobs
 
 deactivate
