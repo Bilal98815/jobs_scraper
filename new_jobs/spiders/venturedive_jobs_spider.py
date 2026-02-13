@@ -34,7 +34,6 @@ class VenturediveJobsSpider(scrapy.Spider):
                 self.seen_jobs.add(full_url)
                 self.discord_client.send_discord_notification(title, location, full_url, "Venturedive")
 
-        self.discord_client.send_scraper_alert()
         self.save_seen_jobs()
 
     def save_seen_jobs(self):
